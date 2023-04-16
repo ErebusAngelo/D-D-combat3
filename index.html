@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>D&D-Combates</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>D&D-Combates</h1>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="combate">Puntos de golpe:</label>
+        <input type="number" id="combate" name="combate"><br>
+        <label for="combate">Puntos de golpe maximos:</label>
+        <input type="number" id="PGM" name="PGM"><br>
+        <label for="iniciativa">Iniciativa:</label>
+        <input type="number" id="iniciativa" name="iniciativa"><br>
+        <label for="iniciativa">CA:</label>
+        <input type="number" id="CA"  name="CA"><br>
+        
+        <input type="button" value="Agregar" id="agregar" onclick="agregarPersonaje()">
+      </form>
+      <ul id="lista"></ul>
+      <button id="cambiar-turno">Cambiar turno</button>
+     
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
