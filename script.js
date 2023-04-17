@@ -122,7 +122,7 @@ function actualizarLista() {
       <span>${personaje.nombre} - Iniciativa <input type="number" id="ini" min="0" value="${personaje.iniciativa}" onchange="modificarAtributo(${index}, 'iniciativa', event.target.value)"> - <img src="
       ./CA.png" alt="Descripción de la imagen"> ${personaje.CA} 
       <label for="Estado"></label>
-      <input type="number" placeholder ="CA Bonus" id="CAB" class="bar" name="PGT">
+      
       </span>
       <span id="PGpg">
         <button onclick="restarPuntosDeGolpe(${index})">-</button>
